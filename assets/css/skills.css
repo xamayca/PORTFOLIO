@@ -1,0 +1,21 @@
+.skill:hover img {
+  transform: scale(3.5) rotate(25deg);
+}
+
+.skill img {
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.skill>div {
+  transform: translateY(100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.skill:hover>div {
+  transform: translateY(0%);
+  transition: all 0.3s ease-in-out;
+}
+
+.rbg-08-black {
+  background-color: rgb(19, 22, 26, 0.8);
+}

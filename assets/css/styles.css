@@ -1,0 +1,1406 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin-top: 10vh;
+}
+
+/***** SCROLLBAR GENERAL *****/
+/*****************************/
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4A5765;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #282a35;
+}
+
+/***** ANIMATIONS GENERAL *****/
+/*****************************/
+.transition-03 {
+    transition: all 0.3s ease-in-out;
+}
+
+.transition-05 {
+    transition: all 0.5s ease-in-out;
+}
+
+/***** TEXT CSS GENERAL *****/
+/***************************/
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100dvh;
+    min-height: -webkit-fill-available;
+    forced-color-adjust: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1em;
+}
+
+.fs-08 {
+    font-size: 0.8em;
+}
+
+.fs-1 {
+    font-size: 1em;
+}
+
+.fs-1-2 {
+    font-size: 1.2em;
+}
+
+.fs-1-3 {
+    font-size: 1.3em;
+}
+
+.fs-1-5 {
+    font-size: 1.5em;
+}
+
+.fs-2 {
+    font-size: 2em;
+}
+
+.fs-3 {
+    font-size: 3em;
+}
+
+.fs-4 {
+    font-size: 4em;
+}
+
+.fs-5 {
+    font-size: 5em;
+}
+
+
+.list-none {
+    list-style: none;
+}
+
+.txt-small {
+    font-size: small;
+}
+
+.txt-large {
+    font-size: large;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-justify {
+    text-align: justify;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-normal {
+    font-weight: normal;
+}
+
+.txt-underline {
+    text-decoration-line: underline;
+}
+
+.txt-up {
+    text-transform: uppercase;
+}
+
+.fs-italic {
+    font-style: italic;
+}
+
+.txt-spc-02 {
+    letter-spacing: 0.2em;
+}
+
+
+/***** TEXTE COLOR CSS GENERAL *****/
+/**********************************/
+.txt-white {
+    color: #F5FFFA;
+}
+
+.txt-light {
+    color: #5D6D7E;
+}
+
+.txt-light-grey {
+    color: #4A5765;
+}
+
+.txt-grey {
+    color: #d6d6d6;
+}
+
+.txt-light-dark {
+    color: #2C3A47;
+}
+
+.txt-black {
+    color: #000000;
+}
+
+.txt-blue {
+    color: #2c3e50;
+}
+
+.txt-blue-light {
+    color: #34495E;
+}
+
+.txt-dark {
+    color: #13161A;
+}
+
+.txt-dark-light {
+    color: #1A1D24;
+}
+
+.txt-dark-grey {
+    color: #282a35;
+}
+
+/***** BACKGROUND COLOR CSS GENERAL *****/
+/***************************************/
+.bg-white {
+    background-color: #F5FFFA;
+}
+
+.bg-light {
+    background-color: #5D6D7E;
+}
+
+.bg-light-grey {
+    background-color: #4A5765;
+}
+
+.bg-grey {
+    background-color: #d6d6d6;
+}
+
+.bg-light-dark {
+    background-color: #2C3A47;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-blue {
+    background-color: #2c3e50;
+}
+
+.bg-blue-light {
+    background-color: #34495E;
+}
+
+.bg-dark {
+    background-color: #13161A;
+}
+
+.bg-dark-light {
+    background-color: #1A1D24;
+}
+
+.bg-dark-grey {
+    background-color: #282a35;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+/***** BUTTONS COLOR CSS GENERAL *****/
+/************************************/
+.btn-white {
+    background-color: #F5FFFA;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-light {
+    background-color: #5D6D7E;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-light-grey {
+    background-color: #4A5765;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-grey {
+    background-color: #BDC3C7;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-light-dark {
+    background-color: #2C3A47;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-black {
+    background-color: #000000;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-blue {
+    background-color: #2c3e50;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-blue-light {
+    background-color: #34495E;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-dark {
+    background-color: #13161A;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-dark-light {
+    background-color: #1A1D24;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn-dark-grey {
+    background-color: #282a35;
+    transition: all 0.3 ease-in-out;
+}
+
+
+/***** BUTTONS HOVER CSS GENERAL *****/
+/************************************/
+.btn-white:hover {
+    background-color: #F5FFFA;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-light:hover {
+    background-color: #5D6D7E;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-light-grey:hover {
+    background-color: #4A5765;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-grey:hover {
+    background-color: #BDC3C7;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-light-dark:hover {
+    background-color: #2C3A47;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-black:hover {
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-blue:hover {
+    background-color: #2c3e50;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-blue-light:hover {
+    background-color: #34495E;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-dark:hover {
+    background-color: #13161A;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-dark-light:hover {
+    background-color: #1A1D24;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-dark-grey:hover {
+    background-color: #282a35;
+    transition: all 0.3s ease-in-out;
+}
+
+/***** BUTTONS LINK CSS GENERAL *****/
+/************************************/
+.link-white .link-light .link-light-grey .link-grey .link-light-dark .link-black .link-blue .link-blue-light .link-dark .link-dark-light .link-dark-grey {
+    transition: all 0.3s ease-in-out;
+}
+
+/***** LINK & LINK BACKGROUND HOVER CSS GENERAL *****/
+/***************************************************/
+.link-white:hover {
+    background-color: #F5FFFA;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-light:hover {
+    background-color: #5D6D7E;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-light-grey:hover {
+    background-color: #4A5765;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-grey:hover {
+    background-color: #BDC3C7;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-light-dark:hover {
+    background-color: #2C3A47;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-black:hover {
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-blue:hover {
+    background-color: #2c3e50;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-blue-light:hover {
+    background-color: #34495E;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-dark:hover {
+    background-color: #13161A;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-dark-light:hover {
+    background-color: #1A1D24;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-dark-grey:hover {
+    background-color: #282a35;
+    transition: all 0.3s ease-in-out;
+}
+
+/***** WIDTH % GENERAL *****/
+/**************************/
+.w-auto {
+    width: auto;
+}
+
+.w-0 {
+    width: 0%;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/***** WIDTH VW GENERAL *****/
+/***************************/
+.vw-5 {
+    width: 5vw;
+}
+
+.vw-10 {
+    width: 10vw;
+}
+
+.vw-20 {
+    width: 20vw;
+}
+
+.vw-25 {
+    width: 25vw;
+}
+
+.vw-50 {
+    width: 50vw;
+}
+
+.vw-75 {
+    width: 75vw;
+}
+
+.vw-80 {
+    width: 80vw;
+}
+
+.vw-90 {
+    width: 90vw;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+/***** MAX WIDTH % GENERAL *****/
+/**************************/
+.max-w-10 {
+    max-width: 10%;
+}
+
+.max-w-20 {
+    max-width: 20%;
+}
+
+.max-w-25 {
+    max-width: 25%;
+}
+
+.max-w-50 {
+    max-width: 50%;
+}
+
+.max-w-75 {
+    max-width: 75%;
+}
+
+.max-w-80 {
+    max-width: 80%;
+}
+
+.max-w-90 {
+    max-width: 90%;
+}
+
+.max-w-100 {
+    max-width: 100%;
+}
+
+/***** MIN WIDTH % GENERAL *****/
+/**************************/
+.min-w-10 {
+    min-width: 10%;
+}
+
+.min-w-20 {
+    min-width: 20%;
+}
+
+.min-w-25 {
+    min-width: 25%;
+}
+
+.min-w-50 {
+    min-width: 50%;
+}
+
+.min-w-75 {
+    min-width: 75%;
+}
+
+.min-w-80 {
+    min-width: 80%;
+}
+
+.min-w-90 {
+    min-width: 90%;
+}
+
+.min-w-100 {
+    min-width: 100%;
+}
+
+/***** HEIGHT % GENERAL *****/
+/***************************/
+.h-auto {
+    height: auto;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-25 {
+    height: 25%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+
+.h-75 {
+    height: 75%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+/***** HEIGHT DVH GENERAL *****/
+/****************************/
+.dvh-10 {
+    height: 10dvh;
+}
+
+.dvh-20 {
+    height: 20dvh;
+}
+
+.dvh-25 {
+    height: 25dvh;
+}
+
+.dvh-50 {
+    height: 50dvh;
+}
+
+.dvh-75 {
+    height: 75dvh;
+}
+
+.dvh-80 {
+    height: 80dvh;
+}
+
+.dvh-90 {
+    height: 90dvh;
+}
+
+.dvh-100 {
+    height: 100dvh;
+}
+
+/***** HEIGHT VH GENERAL *****/
+/****************************/
+.vh-5 {
+    height: 5vh;
+}
+
+.vh-10 {
+    height: 10vh;
+}
+
+.vh-20 {
+    height: 20vh;
+}
+
+.vh-25 {
+    height: 25vh;
+}
+
+.vh-30 {
+    height: 30vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.vh-80 {
+    height: 80vh;
+}
+
+.vh-90 {
+    height: 90vh;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+/***** POSITIONNEMENT & DISPLAY FLEX CSS GENERAL *****/
+/****************************************************/
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.d-initial {
+    display: initial;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-stretch {
+    align-items: stretch;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-baseline {
+    align-items: baseline;
+}
+
+/***** ORDER FLEX GENERAL *****/
+/*****************************/
+.order-n1 {
+    order: -1;
+}
+
+.order-n2 {
+    order: -2;
+}
+
+.order-n3 {
+    order: -3;
+}
+
+.order-n4 {
+    order: -4;
+}
+
+.order-n5 {
+    order: -5;
+}
+
+.order-0 {
+    order: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-6 {
+    order: 6;
+}
+
+.order-7 {
+    order: 7;
+}
+
+.order-8 {
+    order: 8;
+}
+
+.order-9 {
+    order: 9;
+}
+
+
+.order-10 {
+    order: 10;
+}
+
+/***** BORDER CSS GENERAL *****/
+/*****************************/
+.border-none {
+    border: none;
+}
+
+.border-03 {
+    border: 0.3em solid #5D6D7E;
+}
+
+.border-section {
+    border-bottom: 0.2em solid;
+    border-image: linear-gradient(to right, transparent, #5D6D7E, transparent);
+    border-image-slice: 1;
+}
+
+/***** GOUTTIÈRES CSS GENERAL *****/
+/*********************************/
+.gap-05 {
+    gap: 0.5em;
+}
+
+.gap-1 {
+    gap: 1em;
+}
+
+.gap-2 {
+    gap: 2em;
+}
+
+.gap-3 {
+    gap: 3em;
+}
+
+.gap-4 {
+    gap: 4em;
+}
+
+.gap-5 {
+    gap: 5em;
+}
+
+/***** PADDING CSS GENERAL *****/
+/*******************************/
+.p-02 {
+    padding: 0.2em;
+}
+
+.p-05 {
+    padding: 0.5em;
+}
+
+.p-1 {
+    padding: 1em;
+}
+
+.p-2 {
+    padding: 2em;
+}
+
+.p-3 {
+    padding: 3em;
+}
+
+.p-4 {
+    padding: 5em;
+}
+
+/***** PADDING TOP CSS GENERAL *****/
+/**********************************/
+.pt-025 {
+    padding-top: 0.25em;
+}
+
+.pt-05 {
+    padding-top: 0.5em;
+}
+
+.pt-1 {
+    padding-top: 1em;
+}
+
+.pt-2 {
+    padding-top: 2em;
+}
+
+.pt-3 {
+    padding-top: 3em;
+}
+
+.pt-4 {
+    padding-top: 4em;
+}
+
+.pt-5 {
+    padding-top: 5em;
+}
+
+/***** PADDING BOTTOM CSS GENERAL *****/
+/*************************************/
+.pb-025 {
+    padding-bottom: 0.25em;
+}
+
+.pb-05 {
+    padding-bottom: 0.5em;
+}
+
+.pb-1 {
+    padding-bottom: 1em;
+}
+
+.pb-2 {
+    padding-bottom: 2em;
+}
+
+.pb-3 {
+    padding-bottom: 3em;
+}
+
+.pb-4 {
+    padding-bottom: 4em;
+}
+
+.pb-5 {
+    padding-bottom: 5em;
+}
+
+/***** PADDING RIGHT CSS GENERAL *****/
+/**********************************/
+.pr-025 {
+    padding-right: 0.25em;
+}
+
+.pr-05 {
+    padding-right: 0.5em;
+}
+
+.pr-1 {
+    padding-right: 1em;
+}
+
+.pr-2 {
+    padding-right: 2em;
+}
+
+.pr-3 {
+    padding-right: 3em;
+}
+
+.pr-4 {
+    padding-right: 4em;
+}
+
+.pr-5 {
+    padding-right: 5em;
+}
+
+/***** PADDING LEFT CSS GENERAL *****/
+/**********************************/
+.pl-025 {
+    padding-left: 0.25em;
+}
+
+.pl-05 {
+    padding-left: 0.5em;
+}
+
+.pl-1 {
+    padding-left: 1em;
+}
+
+.pl-2 {
+    padding-left: 2em;
+}
+
+.pl-3 {
+    padding-left: 3em;
+}
+
+.pl-4 {
+    padding-left: 4em;
+}
+
+.pl-5 {
+    padding-left: 5em;
+}
+
+/***** MARGIN CSS GENERAL *****/
+/*********************************/
+.m-05 {
+    margin: 0.5em;
+}
+
+.m-1 {
+    margin: 1em;
+}
+
+.m-2 {
+    margin: 2em;
+}
+
+.m-3 {
+    margin: 3em;
+}
+
+.m-4 {
+    margin: 4em;
+}
+
+.m-5 {
+    margin: 5em;
+}
+
+/***** MARGIN BOTTOM CSS GENERAL *****/
+/************************************/
+
+.mb-05 {
+    margin-bottom: 0.5em;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+.mb-3 {
+    margin-bottom: 3em;
+}
+
+.mb-4 {
+    margin-bottom: 4em;
+}
+
+.mb-5 {
+    margin-bottom: 5em;
+}
+
+/***** MARGIN TOP CSS GENERAL *****/
+/*********************************/
+
+.mt-05 {
+    margin-top: 0.5em;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+.mt-3 {
+    margin-top: 3em;
+}
+
+.mt-4 {
+    margin-top: 4em;
+}
+
+.mt-5 {
+    margin-top: 5em;
+}
+
+/***** MARGIN TOP CSS GENERAL *****/
+/*********************************/
+
+.mr-05 {
+    margin-right: 0.5em;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.mr-2 {
+    margin-right: 2em;
+}
+
+.mr-3 {
+    margin-right: 3em;
+}
+
+.mr-4 {
+    margin-right: 4em;
+}
+
+.mr-5 {
+    margin-right: 5em;
+}
+
+/***** MARGIN TOP CSS GENERAL *****/
+/*********************************/
+
+.ml-05 {
+    margin-left: 0.5em;
+}
+
+.ml-1 {
+    margin-left: 1em;
+}
+
+.ml-2 {
+    margin-left: 2em;
+}
+
+.ml-3 {
+    margin-left: 3em;
+}
+
+.ml-4 {
+    margin-left: 4em;
+}
+
+.ml-5 {
+    margin-left: 5em;
+}
+
+/***** IMAGES CSS GENERAL *****/
+/*****************************/
+.object-cover {
+    object-fit: cover;
+}
+
+.object-contain {
+    object-fit: contain;
+}
+
+/***** OMBRES CSS GENERAL *****/
+/*****************************/
+.shadow-bottom {
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-top {
+    box-shadow: 5px 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+/***** DIVERS CSS GENERAL *****/
+/*****************************/
+.pointer {
+    cursor: pointer
+}
+
+.overflow-h {
+    overflow: hidden;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+
+/***** Z-INDEX CSS GENERAL *****/
+/******************************/
+.z-0 {
+    z-index: 0;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.z-4 {
+    z-index: 4;
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+/***** POSITIONNEMENT TOP ABSOLUTE CSS GENERAL *****/
+/**********************************************/
+.top-0 {
+    top: 0%;
+}
+
+.top-10 {
+    top: 10%;
+}
+
+.top-20 {
+    top: 20%;
+}
+
+.top-25 {
+    top: 25%;
+}
+
+.top-50 {
+    top: 50%;
+}
+
+.top-75 {
+    top: 75%;
+}
+
+.top-80 {
+    top: 80%;
+}
+
+.top-90 {
+    top: 90%;
+}
+
+.top-100 {
+    top: 100%;
+}
+
+/***** POSITIONNEMENT BOTTOM ABSOLUTE CSS GENERAL *****/
+/*****************************************************/
+.bottom-0 {
+    bottom: 0%;
+}
+
+.bottom-10 {
+    bottom: 10%;
+}
+
+.bottom-20 {
+    bottom: 20%;
+}
+
+.bottom-25 {
+    bottom: 25%;
+}
+
+.bottom-50 {
+    bottom: 50%;
+}
+
+.bottom-75 {
+    bottom: 75%;
+}
+
+.bottom-80 {
+    bottom: 80%;
+}
+
+.bottom-90 {
+    bottom: 90%;
+}
+
+.bottom-100 {
+    bottom: 100%;
+}
+
+/***** POSITIONNEMENT LEFT ABSOLUTE CSS GENERAL *****/
+/***************************************************/
+.left-0 {
+    left: 0%;
+}
+
+.left-10 {
+    left: 10%;
+}
+
+.left-20 {
+    left: 20%;
+}
+
+.left-25 {
+    left: 25%;
+}
+
+.left-50 {
+    left: 50%;
+}
+
+.left-75 {
+    left: 75%;
+}
+
+.left-80 {
+    left: 80%;
+}
+
+.left-90 {
+    left: 90%;
+}
+
+.left-100 {
+    left: 100%;
+}
+
+.left-n100 {
+    left: -100%;
+}
+
+/***** POSITIONNEMENT RIGHT ABSOLUTE CSS GENERAL *****/
+/***************************************************/
+.right-0 {
+    right: 0%;
+}
+
+.right-10 {
+    right: 10%;
+}
+
+.right-20 {
+    right: 20%;
+}
+
+.right-25 {
+    right: 25%;
+}
+
+.right-50 {
+    right: 50%;
+}
+
+.right-75 {
+    right: 75%;
+}
+
+.right-80 {
+    right: 80%;
+}
+
+.right-90 {
+    right: 90%;
+}
+
+.right-100 {
+    right: 100%;
+}
+
+.right-n25 {
+    right: -25%;
+}
+
+.right-n50 {
+    right: -50%;
+}
+
+.right-n100 {
+    right: -100%;
+}

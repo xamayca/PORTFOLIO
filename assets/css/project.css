@@ -1,0 +1,14 @@
+.project div {
+    transition: all 0.5s ease-in-out;
+}
+
+.project div:first-child:hover {
+    transform: translateX(-50%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.project div:first-child:hover+div:last-child {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}

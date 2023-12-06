@@ -1,0 +1,94 @@
+/********************************************************************************/
+/********************************* MÉDIAS QUERY *********************************/
+/********************************************************************************/
+
+@media screen and (min-width:768px) and (max-width:1023px) {}
+
+@media screen and (min-width:1024px) and (max-width:1600px) {
+
+    #menu-open,
+    #menu-close,
+    #contact-mobile {
+        display: none;
+    }
+
+    #navigation-links {
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        transform: none;
+        height: initial;
+        width: 60%;
+    }
+
+    header>div:first-child {
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 2em;
+    }
+
+    #about .d-flex.items-center.justify-around.gap-1.bg-dark-light {
+       width:25%;
+    }
+
+    #skills-container {
+        gap: 5em;
+    }
+
+    .skill {
+        width: 25%;
+    }
+
+    .project {
+        width: 40%;
+    }
+    .project div:last-child {
+        width: 60%;
+    }
+
+
+
+}
+
+@media screen and (min-width:1600px) {
+
+    #menu-open,
+    #menu-close,
+    #contact-mobile {
+        display: none;
+    }
+
+    #navigation-links {
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        transform: none;
+        height: initial;
+        width: 40%;
+    }
+
+    header>div:first-child {
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 2em;
+    }
+
+    #contact-pc {
+        display: flex;
+    }
+
+    #skills-container {
+        gap: 5em;
+    }
+
+    .skill {
+        width: 25%;
+    }
+
+    .project {
+        width: 40%;
+    }
+
+}

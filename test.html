@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
+    <script src="https://kit.fontawesome.com/c8066bb5d8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/navigation.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/project.css">
+    <link rel="stylesheet" href="assets/css/medias-queries.css">
+
+    <title>PORTFOLIO: HARIOUAT Christopher - Développeur web et web mobile</title>
+</head>
+
+<body class="bg-dark-light txt-white">
+
+    <!-- NAVIGATION BAR / NAVIGATION LINKS / MOBILE CONTACT LINKS -->
+    <nav class="d-flex items-center justify-around fixed vh-10 w-100 top-0 fw-bold z-2">
+
+        <h1 class="fs-1-5 txt-up">Portfolio</h1>
+
+        <img id="menu-open" src="assets/img/menu-open.svg" class="w-10 h-50 pointer" alt="Logo pour ouvrir le menu">
+        <img id="menu-close" src="assets/img/menu-close.svg" class="w-10 h-50 pointer d-none"
+            alt="Logo pour fermer le menu">
+
+        <ul id="navigation-links"
+            class="d-flex justify-around flex-column items-center absolute w-100 dvh-90 top-100 list-none txt-spc-02 bg-dark-light">
+            <li>
+                <a href="#aboutme" class="link-dark-grey txt-white txt-up p-1 transition-03"
+                    title="Voir mes informations">À propos</a>
+            </li>
+            <li>
+                <a href="#abilities" class="link-dark-grey txt-white txt-up p-1 transition-03"
+                    title="Voir mes compétences">Compétences</a>
+            </li>
+            <li>
+                <a href="#projects" class="link-dark-grey txt-white txt-up p-1 transition-03"
+                    title="Voir mes projets">Projets</a>
+            </li>
+            <li>
+                <a href="#experiences" class="link-dark-grey txt-white txt-up p-1 transition-03"
+                    title="Voir mes expériences">Expériences</a>
+            </li>
+
+            <!--Navigation contact items link  (mobile) -->
+            <li id="contact-mobile" class="d-flex items-center justify-between p-05 gap-1 mt-1 bg-dark w-80">
+                <!-- Phone Mobile contact -->
+                <a href="tel:+0749872943" class="d-flex justify-around p-05 link-dark-grey" target="_blank">
+                    <img src="assets/img/contact-phone.svg" class="h-60 w-60" alt="M'appeler sur mon portable"
+                        title="M'appeler sur mon portable">
+                </a>
+                <!-- Email Mobile contact -->
+                <a href="mailto:christopher.hariouat@gmail.com" class="d-flex justify-around p-05 link-dark-grey"
+                    target="_blank">
+                    <img src="assets/img/contact-mail.svg" class="h-60 w-60" alt="M'envoyer un mail"
+                        title="M'envoyer un mail">
+                </a>
+                <!-- LinkedIn Mobile contact -->
+                <a href="https://www.linkedin.com/in/christopher-hariouat-b87714294/"
+                    class="d-flex justify-around p-05 link-dark-grey" target="_blank">
+                    <img src="assets/img/contact-linkedIn.svg" class="h-60 w-60" alt="Voir mon LinkedIn"
+                        title="Voir mon LinkedIn">
+                </a>
+                <!-- Github Mobile contact -->
+                <a href="https://github.com/xamayca" class="d-flex justify-around p-05 link-dark-grey" target="_blank">
+                    <img src="assets/img/contact-github.svg" class="h-60 w-60" alt="Voir mon Github"
+                        title="Voir mon Github">
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- HEADER / DOWNLOAD CV BUTTON / PC CONTACT LINKS -->
+    <header class="d-flex flex-column items-center justify-evenly dvh-90 w-100 bg-dark-light">
+
+        <div class="d-flex flex-column items-center txt-center gap-2 w-100">
+
+            <!-- Avatar profile -->
+            <div id="avatar" class="shadow-bottom bg-dark transition-05 mt-1 mb-1"></div>
+
+            <!-- Titre profile -->
+            <section class="d-flex flex-column items-center gap-05">
+                <h2 class="fw-normal txt-large">Développeur Web & Mobile</h2>
+                <h3 class="txt-up fs-1-3"><span class="txt-spc-02">Hariouat</span> Christopher</h3>
+
+                <!--Navigation contact items link  (PC) -->
+                <div id="contact-pc" class="d-none items-center justify-between p-05 gap-1 mt-1 w-80 ">
+                    <!-- Phone PC contact -->
+                    <a href="tel:+0749872943" class="d-flex justify-around p-05 link-dark-grey" target="_blank">
+                        <img src="assets/img/contact-phone.svg" class="h-60 w-60" alt="M'appeler sur mon portable"
+                            title="M'appeler sur mon portable">
+                    </a>
+                    <!-- Email PC contact -->
+                    <a href="mailto:christopher.hariouat@gmail.com" class="d-flex justify-around p-05 link-dark-grey"
+                        target="_blank">
+                        <img src="assets/img/contact-mail.svg" class="h-60 w-60" alt="M'envoyer un mail"
+                            title="M'envoyer un mail">
+                    </a>
+                    <!-- LinkedIn PC contact -->
+                    <a href="https://www.linkedin.com/in/christopher-hariouat-b87714294/"
+                        class="d-flex justify-around p-05 link-dark-grey" target="_blank">
+                        <img src="assets/img/contact-linkedIn.svg" class="h-60 w-60" alt="Voir mon LinkedIn"
+                            title="Voir mon LinkedIn">
+                    </a>
+                    <!-- Github PC contact -->
+                    <a href="https://github.com/xamayca" class="d-flex justify-around p-05 link-dark-grey"
+                        target="_blank">
+                        <img src="assets/img/contact-github.svg" class="h-60 w-60" alt="Voir mon Github"
+                            title="Voir mon Github">
+                    </a>
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- Download cv button -->
+        <a id="download-cv" href="#" class="btn-dark link-dark-grey p-1 txt-white fw-bold txt-up shadow-bottom"
+            title="Télécharger mon CV">
+            Télécharger mon cv
+        </a>
+
+
+        <img id="arrow-down" src="assets/img/arrow-down.svg" class="w-50 vh-5" alt="Défilé vers le bas">
+
+    </header>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
