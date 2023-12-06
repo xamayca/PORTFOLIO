@@ -7,3 +7,22 @@
 #navigation-links.d-initial {
     transform: translateX(0%);
 }
+.card img{
+    transition: all 0.3s ease-in-out;
+}
+#about .card:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+ }
+
+ .ear-hover {
+    background-image: url('./assets/img/ico-ear-hover.svg');
+}
+
+.bulb-hover {
+    background-image: url('./assets/img/ico-bulb-hover.svg');
+}
+
+.valid-hover {
+    background-image: url('./assets/img/ico-valid-hover.svg');
+}
