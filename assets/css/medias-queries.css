@@ -32,22 +32,13 @@
        width:25%;
     }
 
-    #skills-container {
-        gap: 5em;
-    }
-
     .skill {
-        width: 25%;
+        width: 30%;
     }
 
     .project {
-        width: 40%;
+        width: 45%;
     }
-    .project div:last-child {
-        width: 60%;
-    }
-
-
 
 }
 
@@ -66,7 +57,7 @@
         position: initial;
         transform: none;
         height: initial;
-        width: 40%;
+        width: 60%;
     }
 
     header>div:first-child {
@@ -75,20 +66,16 @@
         font-size: 2em;
     }
 
-    #contact-pc {
-        display: flex;
-    }
-
-    #skills-container {
-        gap: 5em;
+    #about .d-flex.items-center.justify-around.gap-1.bg-dark-light {
+       width:25%;
     }
 
     .skill {
-        width: 25%;
+        width: 30%;
     }
 
     .project {
-        width: 40%;
+        width: 45%;
     }
 
 }
